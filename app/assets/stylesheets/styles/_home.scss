@@ -109,12 +109,15 @@
     position: relative;
     width: 100vw; 
 }
-.col-md-4 h2 {
+#countdown_clock h2 {
     font-weight: bolder; 
     margin-bottom: 20px; 
     font-size: 40px; 
     color: #8C1D40; 
     font-family: Oswald, sans-serif;
+}
+#countdown_clock {
+    text-align: center;
 }
 #purpose {
     margin-right: 130px;
