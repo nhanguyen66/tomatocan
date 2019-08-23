@@ -39,6 +39,12 @@
         margin-top: 60px;
     }
 }
+@media only screen and (max-width: 600px){
+    #heroTitle1 {
+        font-size: 30px;
+        margin-top: 45px;
+    }
+}
 #heroTitle2 {
     font-size: 40px;
 }
@@ -47,6 +53,11 @@
         font-size: 30px;
     }
 }
+@media only screen and (max-width: 600px){
+    #heroTitle2 {
+        font-size: 15px;
+    }
+} 
 #heroTitle3 {
     color: white; 
     padding: 10px;
@@ -59,6 +70,11 @@
         font-size: 20px;
     }
 }
+@media only screen and (max-width: 600px){
+    #heroTitle3 {
+        font-size: 10px;
+    }
+}
 #heroTitle4{
     padding-top: 20px;
     font-size: 25px;
@@ -68,9 +84,19 @@
         padding-top: 0px;
     }
 }
+@media only screen and (max-width: 600px){
+    #heroTitle4 {
+        padding-top: 0px;
+    }
+}
 @media only screen and (max-width: 800px){
     #heroTitle4 {
         font-size: 20px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #heroTitle4 {
+        font-size: 10px;
     }
 }
 .topic_link {
@@ -82,12 +108,22 @@
         font-size: 20px;
     }
 }
+@media only screen and (max-width: 600px){
+    .topic_link {
+        font-size: 10px;
+    }
+}
 #buttonTitle {
     padding-top: 30px;
 }
 @media only screen and (max-width: 800px){
     #buttonTitle {
         padding-top: 5px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #buttonTitle {
+        padding-top: 2px;
     }
 }
 #home {
@@ -109,12 +145,15 @@
     position: relative;
     width: 100vw; 
 }
-.col-md-4 h2 {
+#countdown_clock h2 {
     font-weight: bolder; 
     margin-bottom: 20px; 
     font-size: 40px; 
     color: #8C1D40; 
     font-family: Oswald, sans-serif;
+}
+#countdown_clock {
+    text-align: center;
 }
 #purpose {
     margin-right: 130px;
@@ -124,6 +163,11 @@
         margin-right: 35px;
     }
 }
+@media only screen and (max-width: 600px){
+    #purpose {
+        margin-right: 20px;
+    }
+}
 .col-md-5 {
     padding: 0px;
 }
@@ -131,11 +175,12 @@
     font-weight: bolder; 
     font-size: 30px; 
     color: #8C1D40;
+    text-align: center;
 }
 .col-md-5 p {
     text-align: justify; 
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
 
 }
 .banner, .main{
