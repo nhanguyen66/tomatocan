@@ -6,7 +6,8 @@
     }
 }
 .banner {
-    margin: 0px;
+    margin-left: -20px;
+    margin-right: -15px;
 }
 .home_video {
     width: 100vw;
@@ -21,6 +22,8 @@
     height: 107vh;
     width: 100vw;
     top: 50px;
+    margin: auto;
+    margin-right: 5px;
     display: flex;
     background-image: linear-gradient(rgba(51,51,51,0.6),rgba(51,51,51,0.6));
 }
@@ -69,6 +72,9 @@
     background-repeat: repeat-x;
     position: relative;
     width: 100vw; 
+    margin-right: -15px;
+    margin-left: -20px;
+    margin-bottom: 0px;
 }
 #countdown_clock h2 {
     font-weight: bolder; 
@@ -248,12 +254,15 @@
     #buttonTitle {
         padding-top: 2px;
     }
-    #purpose {
-        margin-right: 20px;
-    }
     #rewards, #connect {
         padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 45px;
+        padding-left: 25px;
+        padding-right: 30px;
+    }
+    .col-md-5 p {
+        padding-left: 40px;
+    }
+    .col-md-8 {
+        padding-left: 40px;
     }
 }
