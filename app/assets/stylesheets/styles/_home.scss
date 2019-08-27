@@ -241,11 +241,11 @@ html, body {
 }
 @media only screen and (max-width: 500px){
     #heroTitle1 {
-        font-size: 40px;
-        margin-top: 45px;
+        font-size: 35px;
+        margin-top: 40px;
     }
     #heroTitle2 {
-        font-size: 30px;
+        font-size: 25px;
     }
     #heroTitle3 {
         font-size: 15px;
@@ -253,6 +253,9 @@ html, body {
     #heroTitle4 {
         padding-top: 0px;
         font-size: 15px;
+    }
+    #calendar {
+        padding-left: 20px;
     }
     .topic_link {
         font-size: 15px;
@@ -263,10 +266,14 @@ html, body {
     #rewards, #connect {
         padding-top: 20px;
         padding-left: 25px;
-        padding-right: 30px;
+        padding-right: 25px;
+    }
+    .col-md-5 h3 {
+        padding-left: 80px;
     }
     .col-md-5 p {
         padding-left: 40px;
+        padding-right: 40px;
     }
     .col-md-8 {
         padding-left: 40px;
