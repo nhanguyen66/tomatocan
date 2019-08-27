@@ -256,6 +256,7 @@ html, body {
     }
     #calendar {
         padding-left: 20px;
+        padding-right: 60px;
     }
     .topic_link {
         font-size: 15px;
@@ -268,12 +269,15 @@ html, body {
         padding-left: 25px;
         padding-right: 25px;
     }
+    .col-md-4 {
+        padding-left: 50px;
+    }
     .col-md-5 h3 {
         padding-left: 80px;
     }
     .col-md-5 p {
         padding-left: 40px;
-        padding-right: 40px;
+        padding-right: 20px;
     }
     .col-md-8 {
         padding-left: 40px;
