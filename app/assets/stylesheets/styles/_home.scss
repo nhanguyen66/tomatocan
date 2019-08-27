@@ -235,9 +235,8 @@ html, body {
         padding-top: 5px;
     }
     #purpose {
-        margin-right: 35px;
+        margin-right: 20px;
     }
-
 }
 @media only screen and (max-width: 500px){
     #heroTitle1 {
@@ -281,5 +280,8 @@ html, body {
     }
     .col-md-8 {
         padding-left: 40px;
+    }
+    .enter_email {
+        width: 70px;
     }
 }
