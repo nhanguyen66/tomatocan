@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet');
-/*#homeWrapper {
-    text-align: center;
-    //Prevents space between header and heroImage on Firefox.
-    margin-top: -20px;
-}*/
 
 @media (min-width: 767px) {
     .herocaption {
         margin-top:150px;
     }
 }
-
 .home_video {
     width: 100vw;
     height: 100vh;
@@ -33,31 +27,9 @@
     font-family: Helvetica, sans-serif;
     margin-top: 90px;
 }
-@media only screen and (max-width: 800px){
-    #heroTitle1 {
-        font-size: 45px;
-        margin-top: 60px;
-    }
-}
-@media only screen and (max-width: 600px){
-    #heroTitle1 {
-        font-size: 30px;
-        margin-top: 45px;
-    }
-}
 #heroTitle2 {
     font-size: 40px;
 }
-@media only screen and (max-width: 800px){
-    #heroTitle2 {
-        font-size: 30px;
-    }
-}
-@media only screen and (max-width: 600px){
-    #heroTitle2 {
-        font-size: 15px;
-    }
-} 
 #heroTitle3 {
     color: white; 
     padding: 10px;
@@ -65,66 +37,16 @@
     text-align: center;
     display: inline-block;
 }
-@media only screen and (max-width: 800px){
-    #heroTitle3 {
-        font-size: 20px;
-    }
-}
-@media only screen and (max-width: 600px){
-    #heroTitle3 {
-        font-size: 10px;
-    }
-}
 #heroTitle4{
     padding-top: 20px;
     font-size: 25px;
-}
-@media only screen and (max-width: 800px){
-    #heroTitle4 {
-        padding-top: 0px;
-    }
-}
-@media only screen and (max-width: 600px){
-    #heroTitle4 {
-        padding-top: 0px;
-    }
-}
-@media only screen and (max-width: 800px){
-    #heroTitle4 {
-        font-size: 20px;
-    }
-}
-@media only screen and (max-width: 600px){
-    #heroTitle4 {
-        font-size: 10px;
-    }
 }
 .topic_link {
     color: #FFC627; 
     font-weight: bold;
 }
-@media only screen and (max-width: 800px){
-    .topic_link {
-        font-size: 20px;
-    }
-}
-@media only screen and (max-width: 600px){
-    .topic_link {
-        font-size: 10px;
-    }
-}
 #buttonTitle {
     padding-top: 30px;
-}
-@media only screen and (max-width: 800px){
-    #buttonTitle {
-        padding-top: 5px;
-    }
-}
-@media only screen and (max-width: 600px){
-    #buttonTitle {
-        padding-top: 2px;
-    }
 }
 #home {
     color: white;
@@ -158,16 +80,6 @@
 #purpose {
     margin-right: 130px;
 }
-@media only screen and (max-width: 800px){
-    #purpose {
-        margin-right: 35px;
-    }
-}
-@media only screen and (max-width: 600px){
-    #purpose {
-        margin-right: 20px;
-    }
-}
 .col-md-5 {
     padding: 0px;
 }
@@ -195,7 +107,6 @@
 }
 #rewards h2, #connect h2 {
     font-size: 30px;
-    /*color: #8C1D40;*/
     background-color: #8C1D40; 
     color: white; 
     padding: 15px;
@@ -204,11 +115,6 @@
     font-size: 20px;
     text-align: left;
 }
-/*.col-md-12 {
-    width: 100%;
-    clear: both;
-    padding: 0px 250px;
-}*/
 .learnMore {
     text-align: center;
     background-color: #FFC627;
@@ -287,10 +193,64 @@
     font-size: 30px;
     border-radius: 8px;
 }
-
 #info1 p, #info2 p {
     text-align: justify; 
     font-size: 20px;
     color: black;
 }
+@media only screen and (max-width: 800px){
+    #heroTitle1 {
+        font-size: 45px;
+        margin-top: 60px;
+    }
+    #heroTitle2 {
+        font-size: 30px;
+    }
+    #heroTitle3 {
+        font-size: 20px;
+    }
+    #heroTitle4 {
+        padding-top: 0px;
+        font-size: 20px;
+    }
+    .topic_link {
+        font-size: 20px;
+    }
+    #buttonTitle {
+        padding-top: 5px;
+    }
+    #purpose {
+        margin-right: 35px;
+    }
 
+}
+@media only screen and (max-width: 600px){
+    #heroTitle1 {
+        font-size: 40px;
+        margin-top: 45px;
+    }
+    #heroTitle2 {
+        font-size: 30px;
+    }
+    #heroTitle3 {
+        font-size: 15px;
+    }
+    #heroTitle4 {
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    .topic_link {
+        font-size: 15px;
+    }
+    #buttonTitle {
+        padding-top: 2px;
+    }
+    #purpose {
+        margin-right: 20px;
+    }
+    #rewards, #connect {
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-right: 45px;
+    }
+}
