@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet');
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;     
+}
 @media (min-width: 767px) {
     .herocaption {
         margin-top:150px;
@@ -8,6 +15,9 @@
 .banner {
     margin-left: -20px;
     margin-right: -15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top:30px;
 }
 .home_video {
     width: 100vw;
@@ -17,6 +27,7 @@
     top: 0px;
     left: 0px;
     z-index: -2;
+    display: block;
 }
 .home-video-wrapper {
     height: 107vh;
@@ -103,11 +114,6 @@
     font-size: 20px;
     padding-left: 20px;
 
-}
-.banner {
-    position: -webkit-sticky;
-    position: sticky;
-    top:30px;
 }
 
 #rewards, #connect {
@@ -235,21 +241,21 @@
 }
 @media only screen and (max-width: 500px){
     #heroTitle1 {
-        font-size: 45px;
+        font-size: 40px;
         margin-top: 45px;
     }
     #heroTitle2 {
-        font-size: 35px;
+        font-size: 30px;
     }
     #heroTitle3 {
-        font-size: 20px;
+        font-size: 15px;
     }
     #heroTitle4 {
         padding-top: 0px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .topic_link {
-        font-size: 20px;
+        font-size: 15px;
     }
     #buttonTitle {
         padding-top: 2px;
