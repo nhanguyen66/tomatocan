@@ -5,6 +5,9 @@
         margin-top:150px;
     }
 }
+.banner {
+    margin: 0px;
+}
 .home_video {
     width: 100vw;
     height: 100vh;
@@ -95,7 +98,7 @@
     padding-left: 20px;
 
 }
-.banner, .main{
+.banner {
     position: -webkit-sticky;
     position: sticky;
     top:30px;
@@ -224,23 +227,23 @@
     }
 
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
     #heroTitle1 {
-        font-size: 40px;
+        font-size: 45px;
         margin-top: 45px;
     }
     #heroTitle2 {
-        font-size: 30px;
+        font-size: 35px;
     }
     #heroTitle3 {
-        font-size: 15px;
+        font-size: 20px;
     }
     #heroTitle4 {
         padding-top: 0px;
-        font-size: 15px;
+        font-size: 20px;
     }
     .topic_link {
-        font-size: 15px;
+        font-size: 20px;
     }
     #buttonTitle {
         padding-top: 2px;
@@ -250,7 +253,7 @@
     }
     #rewards, #connect {
         padding-top: 20px;
-        padding-left: 25px;
+        padding-left: 20px;
         padding-right: 45px;
     }
 }
